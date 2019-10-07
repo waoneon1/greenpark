@@ -77,34 +77,28 @@ img {
     text-align: center;
 }
 .promo-about {
+	background: url(assets/img/achieve2.png) 0 100% no-repeat;
 	background-position: bottom;
 	position: relative;
-	margin-bottom: 50px;
 }
 .promo-about .about {
 	z-index: 1
 }
-.owl-nav button.owl-prev {
-	left: 0;
-}
-.owl-nav button.owl-next {
-	right: 0;
-}
 
 /* FLOATER */
 img.floater-plant-ach1 {
-	content: '';
-    position: absolute;
-    left: 0;
-    bottom: 20px;
-    width: 150px;
+	content:'';
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 280px;
 }
 img.floater-plant-ach2 {
-	content: '';
-    position: absolute;
-    right: 0;
-    bottom: 40px;
-    width: 200px;
+	content:'';
+	position: absolute;
+	right: 0;
+	top: 100px;
+	width: 280px;
 	-webkit-transform: scaleX(-1);
 	-moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
@@ -123,10 +117,8 @@ img.floater-plant-partner {
     z-index: 1;
 }
 .partner-item img {
-    opacity: 0.5; 
+    opacity: 1; 
     transition: all .3s ease-in-out; 
-    width: 100%;
-    max-width: 65px;
 }
 .partner-space {
 	padding: 10px 0;
@@ -165,7 +157,7 @@ img.floater-plant-projects2 {
 	width: 280px;
 }
 
-footer .footer-content {
+footer {
 	background: url(assets/img/footer-grass.jpg) 0 100% no-repeat;
 	background-position: bottom;
 }

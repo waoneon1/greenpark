@@ -35,7 +35,7 @@
 	      </div>
 	    </div>
 	  </div>
-	  <div class="site-info">
+	  <div class="site-info" style="background-color: #32281E; color: #fff;">
 	    <div class="container">
 	      <div class="copyright"><strong>greenpark terrace apartment &copy; 2019</strong>. all rights reserved</div>
 	    </div>
