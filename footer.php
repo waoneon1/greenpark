@@ -15,13 +15,32 @@
 	  <div class="footer-content">
 	    <div class="container">
 	      <div class="row">
-	        <div class="col-md-4 mt-1 mb-5">
-	          <h3 class="section-item-title">office</h3>
-	          <div class="contact-item">Jl. Perumahan Puri Krakatau Hijau<br />
+	        <div class="col-md-4 mt-1 mb-5" style="background-color: rgba(255, 255, 255, 0.58);">
+	          <h3 class="section-item-title section-item-title--footer">Marketing Office lama</h3>
+	          <div class="contact-item" id="contact">
+	          	Perum. Puri Krakatau Hijau G1 no. 1A <br />
+				Kel. Kotasari, Kec. Grogol - <br />
+				Cilegon Barat - 42436
+	          	<!-- Jl. Perumahan Puri Krakatau Hijau<br />
 	          	Blok G1 No. 1A, Jalan Raya Merak - Grogol<br />
-	          	Cilegon Barat</div>
-	          <div class="contact-item"><a href="mailto:hello@lewisstudio.co">grandterraceapartment@gmail.com</a></div>
-	          <div class="contact-item"><a href="tel:+00853462188" class="phone-link">+0085 346 2188</a></div>
+	          	Cilegon Barat -->
+	          </div>
+	          <div class="contact-item">
+	          	<a href="mailto:greenparkterrace@gmail.com">greenparkterrace@gmail.com</a>
+	          	<a href="mailto:greenparkterrace.apartemen@gmail.com">greenparkterrace.apartemen@gmail.com</a>
+	          </div>
+
+	          <h3 class="section-item-title section-item-title--footer">Social Media</h3>
+	          <div class="contact-item">
+	          	Account FB : greenparkterrace199@gmail.com
+	          	@greenparkterrace
+	          </div>
+
+
+	          <h3 class="section-item-title section-item-title--footer">Hotline</h3>
+	          <div class="contact-item"><a href="tel:+00853462188" class="phone-link">081 1160 7567</a></div>
+	          <div class="contact-item"><a href="tel:+00853462188" class="phone-link">0254-7734567</a></div>
+
 	        </div>
 	        <div class="col-md-4 mb-5">
 	       		<img src="<?php echo get_template_directory_uri() ?>/assets/img/greenpark.png" style="max-width: 100%">
