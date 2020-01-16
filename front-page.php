@@ -120,23 +120,29 @@ get_header();
         <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-ach.png" alt="" class="floater-plant-ach2 rumbai" />
     </div>
 
+
     <div class="section-item services wow fadeInUp" data-wow-offset="450">
         <div class="container" id="unit" >
             <h3 class="section-item-title">Our Unit Type</h3>
             <div class="services-descr text-grey">Discover our room types. Each presents a sophisticated ambience with rich decoration.</div>
             <div class="row">
                 <div class="col-md-4">
-                    <a href="#" class="service-item wow fadeInUp" data-wow-offset="450">
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/studio/unit1.jpg" 
+                        data-fancybox="gallery"
+                        class="service-item wow fadeInUp" data-wow-offset="450">
                         <div class="services-letter letter-g font-custom">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom1.png">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom3.png">
                             <div class="mask wow slideInLeft" data-wow-delay=".2s" data-wow-duration="2.5s" data-wow-offset="450"></div>
                         </div>
                         <div class="service-item-title">1 Bedroom Type</div>
                         <div class="service-item-descr text-grey">Our One-Bedroom type has a spacious bedroom with a living - dining area, kitchen and comfortable bathroom.</div>
                     </a>
+                    <?php include get_template_directory() . '/template-parts/gallery-one.php' ?>
                 </div>
                 <div class="col-md-4">
-                    <a href="#" class="service-item wow fadeInUp" data-wow-offset="450">
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/br2/unit1.jpg"
+                    data-fancybox="gallery2"
+                    class="service-item wow fadeInUp" data-wow-offset="450">
                         <div class="services-letter letter-w font-custom">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom2.png">
                             <div class="mask wow slideInLeft" data-wow-delay=".4s" data-wow-duration="2.5s" data-wow-offset="450"></div>
@@ -144,16 +150,21 @@ get_header();
                         <div class="service-item-title">2 Bedroom Type</div>
                         <div class="service-item-descr text-grey">Ideal for young families the 39,5 - 48 square meter Two-Bedroom type has a spacious bedroom, living room area, dining room, kitchen and bathroom.</div>
                     </a>
+                    <?php include get_template_directory() . '/template-parts/gallery-two.php' ?>
                 </div>
                 <div class="col-md-4">
-                    <a href="#" class="service-item wow fadeInUp" data-wow-offset="450">
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/br2s/unit1.jpg"
+                    data-fancybox="gallery3"
+                    class="service-item wow fadeInUp" data-wow-offset="450">
                         <div class="services-letter letter-g font-custom">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom3.png">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom1.png">
                             <div class="mask wow slideInLeft" data-wow-delay=".8s" data-wow-duration="2.5s" data-wow-offset="450"></div>
                         </div>
                         <div class="service-item-title">2 Bedroom Suite Type</div>
                         <div class="service-item-descr text-grey">Truly spacious at 52 - 53,5 square meters, the Two-Bedroom Suite is the most luxurious unit and conduct the affairs of your professional and personal life.</div>
                     </a>
+                    <?php include get_template_directory() . '/template-parts/gallery-three.php' ?>
+
                 </div>
             </div>
         </div>
