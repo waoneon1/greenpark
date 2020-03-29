@@ -211,7 +211,7 @@ get_header();
                 <div class="col-md-4">
                     <div class="article-item">
                         <div class="article-item-photo zooming wow fadeInDown" data-wow-delay=".6s" data-wow-offset="450">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/news1.jpg" alt="" class="img-fluid" />
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/nnews1.jpg" alt="" class="img-fluid" />
                         </div>
                         <!-- <div class="article-item-category"><a href="#">Event</a></div>
                         <div class="article-item-title"><a href="#">Runway fashion show with ALEXA & TIARA Bridal</a></div>
@@ -221,14 +221,14 @@ get_header();
                 <div class="col-md-4">
                     <div class="article-item">
                         <div class="article-item-photo zooming wow fadeInDown" data-wow-delay=".8s" data-wow-offset="450">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/news2.jpg" alt="" class="img-fluid" />
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/nnews2.jpg" alt="" class="img-fluid" />
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="article-item">
                         <div class="article-item-photo zooming wow fadeInDown" data-wow-delay="1s" data-wow-offset="450">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/news3.jpg" alt="" class="img-fluid" />
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/nnews3.jpg" alt="" class="img-fluid" />
                         </div>
                     </div>
                 </div>
