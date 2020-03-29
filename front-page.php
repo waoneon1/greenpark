@@ -50,7 +50,8 @@ get_header();
         </div>
     </div>
 
-    <div class="promo-about full-height step-visibility step-logo" style="background-color: #32281E">
+    <div class="promo-about full-height step-visibility step-logo" 
+    style="background-color: #32281E; padding-top: 100px!important;">
         <div class="section about">
             <div class="container" id="about" >
                 <h3 class="section-item-title" style="color:#CEBFA2">About Us</h3>
@@ -78,36 +79,6 @@ get_header();
             </div>
             <div class="container">
                 <div class="partner-list row align-items-center" style="margin-top:0; padding-top: 9.25925926vmin;">
-                   <!--  <div class="col partner-item wow fadeIn" data-wow-delay=".1s" data-wow-offset="100">
-                        <a href="#">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/partner1.png" alt=""/>
-                            <p class="editorials-descr text-grey partner-space">Triple Play Services</p>
-                        </a>
-                    </div>
-                    <div class="col partner-item wow fadeIn" data-wow-delay=".2s" data-wow-offset="100">
-                        <a href="#">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/partner2.png" alt=""/>
-                            <p class="editorials-descr text-grey partner-space">Co-Working Spaces</p>
-                        </a>
-                    </div>
-                    <div class="col partner-item wow fadeIn" data-wow-delay=".3s" data-wow-offset="100">
-                        <a href="#">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/partner3.png" alt=""/>
-                            <p class="editorials-descr text-grey partner-space">E-Library</p>
-                        </a>
-                    </div>
-                    <div class="col partner-item wow fadeIn" data-wow-delay=".4s" data-wow-offset="100">
-                        <a href="#">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/partner4.png" alt=""/>
-                            <p class="editorials-descr text-grey partner-space">Kumkang Building</p>
-                        </a>
-                    </div>
-                    <div class="col partner-item wow fadeIn" data-wow-delay=".5s" data-wow-offset="100">
-                        <a href="#">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/partner5.png" alt=""/>
-                            <p class="editorials-descr text-grey partner-space">Indirect System</p>
-                        </a>
-                    </div> -->
                     
                     <div class="col-12">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/list_logo_kecil.png" alt=""/>
@@ -174,10 +145,10 @@ get_header();
         <div class="container"  id="gallery" >
             <h3 class="section-item-title"style="color:#CEBFA2">Gallery</h3>
             <div class="row">
-                <div class="col-6 gallery-liner">
+                <div class="col-md-6 col-12 gallery-liner">
                     <div class="carousel-container wow fadeIn a-play">
                         <div class="a-project-carousel owl-carousel owl-theme">
-                            <?php $img = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16] ?>
+                            <?php $img = [1,3,5,7,9,11,13,15] ?>
                             <?php foreach ($img as $key => $val): ?>
                                 <div class="project-carousel-item">
                                     <div class="project-carousel-photo" style="background-image: url('<?php echo get_template_directory_uri() . "/assets/img/upload/gallery".$val.".jpg" ?>');"></div>
@@ -188,8 +159,10 @@ get_header();
                     </div>
                     <div class="subtitle-img-vid">Image</div>
                 </div>
-                <div class="col-6">
-                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9NntikP1ZmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="col-md-6 col-12">
+                    <div class="videoWrapper"> 
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9NntikP1ZmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                     <div class="subtitle-img-vid">Videos</div>
                 </div>
             </div>
