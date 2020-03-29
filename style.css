@@ -82,7 +82,7 @@ nav ul li a:hover {
     left: 0;
     right: 0;
     z-index: 10;
-    background: url(assets/img/banner1c.jpg) 50% 100% no-repeat;
+    background: url(assets/image/banner1c.jpg) 50% 100% no-repeat;
     background-size: cover;
 }
 .house-right {
@@ -92,7 +92,7 @@ nav ul li a:hover {
     bottom: 0;
     right: 0;
     z-index: 30;
-    background: url(assets/img/banner2.png) 100% 100% no-repeat;
+    background: url(assets/image/banner2.png) 100% 100% no-repeat;
     background-size: contain;
 }
 .house-left {
@@ -102,7 +102,7 @@ nav ul li a:hover {
     bottom: 0;
     left: 0;
     z-index: 20;
-    background: url(assets/img/banner3.png) 0 100% no-repeat;
+    background: url(assets/image/banner3.png) 0 100% no-repeat;
     background-size: contain;
 }
 .promo-zoom-titles {
@@ -219,7 +219,7 @@ img.floater-plant-projects2 {
 }
 
 footer .footer-content {
-	background: url(assets/img/footer-grass.jpg) 0 100% no-repeat;
+	background: url(assets/image/footer-grass.jpg) 0 100% no-repeat;
 	background-position: bottom;
 }
 

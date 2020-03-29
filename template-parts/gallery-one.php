@@ -5,8 +5,8 @@
     </div>
     <figcaption>Ben Kolde profile on unsplash.com</figcaption>
 </figure> -->
-<a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/studio/unit2.jpg" data-fancybox="gallery" data-caption=""></a>
-<a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/studio/unit3.jpg" data-fancybox="gallery" data-caption=""></a>
-<a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/studio/unit4.jpg" data-fancybox="gallery" data-caption=""></a>
-<a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/studio/unit5.jpg" data-fancybox="gallery" data-caption=""></a>
-<a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/studio/unit6.jpg" data-fancybox="gallery" data-caption=""></a>
+<a href="<?php echo get_template_directory_uri() ?>/assets/image/unit/studio/unit2.jpg" data-fancybox="gallery" data-caption=""></a>
+<a href="<?php echo get_template_directory_uri() ?>/assets/image/unit/studio/unit3.jpg" data-fancybox="gallery" data-caption=""></a>
+<a href="<?php echo get_template_directory_uri() ?>/assets/image/unit/studio/unit4.jpg" data-fancybox="gallery" data-caption=""></a>
+<a href="<?php echo get_template_directory_uri() ?>/assets/image/unit/studio/unit5.jpg" data-fancybox="gallery" data-caption=""></a>
+<a href="<?php echo get_template_directory_uri() ?>/assets/image/unit/studio/unit6.jpg" data-fancybox="gallery" data-caption=""></a>

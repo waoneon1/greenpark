@@ -43,12 +43,12 @@
 
 	        </div>
 	        <div class="col-md-4 mb-5">
-	       		<img src="<?php echo get_template_directory_uri() ?>/assets/img/greenpark.png" style="max-width: 100%">
+	       		<img src="<?php echo get_template_directory_uri() ?>/assets/image/greenpark.png" style="max-width: 100%">
 	        </div>
 	        <div class="col-md-4 mt-1 mb-5 text-right">
 	          <h3 class="section-item-title">Location</h3>
 	          <div class="twitter-item">
-	       			<img src="<?php echo get_template_directory_uri() ?>/assets/img/barcode.jpg" style="max-width: 100%">
+	       			<img src="<?php echo get_template_directory_uri() ?>/assets/image/barcode.jpg" style="max-width: 100%">
 	          </div>
 	        </div>
 	      </div>

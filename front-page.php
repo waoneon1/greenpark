@@ -27,14 +27,14 @@ get_header();
     <header class="bumn-logo">
         <nav>
             <ul>
-                <li><img src="<?php echo get_template_directory_uri() ?>/assets/img/greenpark-sm-w.png" class="bumn-logo-left"></li>
+                <li><img src="<?php echo get_template_directory_uri() ?>/assets/image/greenpark-sm-w.png" class="bumn-logo-left"></li>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#unit">Unit</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#news">News & Updates</a></li>
                 <li><a href="#contact">Contact Us</a></li>
-                <li><img src="<?php echo get_template_directory_uri() ?>/assets/img/bumn.png" class="bumn-logo-right"></li>
+                <li><img src="<?php echo get_template_directory_uri() ?>/assets/image/bumn.png" class="bumn-logo-right"></li>
             </ul>
         </nav>
     </header>
@@ -45,7 +45,7 @@ get_header();
             <div class="house-right"></div>
             <div class="step-opacity"></div>
             <div class="promo-zoom-titles" data-wow-delay=".2s">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/greenpark-top-w.png">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/image/greenpark-top-w.png">
             </div>
         </div>
     </div>
@@ -63,13 +63,13 @@ get_header();
                         <div class="carousel-container wow fadeIn a-play">
                             <div class="a-project-carousel owl-carousel owl-theme">
                                 <div class="project-carousel-item">
-                                    <div class="project-carousel-photo" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/aboutus1.jpg');"></div>
+                                    <div class="project-carousel-photo" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/image/aboutus1.jpg');"></div>
                                 </div>
                                 <div class="project-carousel-item">
-                                    <div class="project-carousel-photo" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/aboutus2.jpg');"></div>
+                                    <div class="project-carousel-photo" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/image/aboutus2.jpg');"></div>
                                 </div>
                                 <div class="project-carousel-item">
-                                    <div class="project-carousel-photo" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/img/aboutus3.jpg');"></div>
+                                    <div class="project-carousel-photo" style="background-image: url('<?php echo get_template_directory_uri() ?>/assets/image/aboutus3.jpg');"></div>
                                 </div>
                             </div>
                             <div class="mask wow slideInLeft" data-wow-offset="450" data-wow-duration="1.5s"></div>
@@ -81,14 +81,14 @@ get_header();
                 <div class="partner-list row align-items-center" style="margin-top:0; padding-top: 9.25925926vmin;">
                     
                     <div class="col-12">
-                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/list_logo_kecil.png" alt=""/>
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/image/list_logo_kecil.png" alt=""/>
                     </div>
 
                 </div>
             </div>
         </div>
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-ach.png" alt="" class="floater-plant-ach1 rumbai" />
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-ach.png" alt="" class="floater-plant-ach2 rumbai" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-ach.png" alt="" class="floater-plant-ach1 rumbai" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-ach.png" alt="" class="floater-plant-ach2 rumbai" />
     </div>
 
 
@@ -98,11 +98,11 @@ get_header();
             <div class="services-descr text-grey">Discover our room types. Each presents a sophisticated ambience with rich decoration.</div>
             <div class="row">
                 <div class="col-md-4">
-                    <a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/studio/unit1.jpg" 
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/image/unit/studio/unit1.jpg" 
                         data-fancybox="gallery"
                         class="service-item wow fadeInUp" data-wow-offset="450">
                         <div class="services-letter letter-g font-custom">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom3.png">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/image/badroom3.png">
                             <div class="mask wow slideInLeft" data-wow-delay=".2s" data-wow-duration="2.5s" data-wow-offset="450"></div>
                         </div>
                         <div class="service-item-title">1 Bedroom Type</div>
@@ -111,11 +111,11 @@ get_header();
                     <?php include get_template_directory() . '/template-parts/gallery-one.php' ?>
                 </div>
                 <div class="col-md-4">
-                    <a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/br2/unit1.jpg"
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/image/unit/br2/unit1.jpg"
                     data-fancybox="gallery2"
                     class="service-item wow fadeInUp" data-wow-offset="450">
                         <div class="services-letter letter-w font-custom">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom2.png">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/image/badroom2.png">
                             <div class="mask wow slideInLeft" data-wow-delay=".4s" data-wow-duration="2.5s" data-wow-offset="450"></div>
                         </div>
                         <div class="service-item-title">2 Bedroom Type</div>
@@ -124,11 +124,11 @@ get_header();
                     <?php include get_template_directory() . '/template-parts/gallery-two.php' ?>
                 </div>
                 <div class="col-md-4">
-                    <a href="<?php echo get_template_directory_uri() ?>/assets/img/unit/br2s/unit1.jpg"
+                    <a href="<?php echo get_template_directory_uri() ?>/assets/image/unit/br2s/unit1.jpg"
                     data-fancybox="gallery3"
                     class="service-item wow fadeInUp" data-wow-offset="450">
                         <div class="services-letter letter-g font-custom">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom1.png">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/image/badroom1.png">
                             <div class="mask wow slideInLeft" data-wow-delay=".8s" data-wow-duration="2.5s" data-wow-offset="450"></div>
                         </div>
                         <div class="service-item-title">2 Bedroom Suite Type</div>
@@ -151,7 +151,7 @@ get_header();
                             <?php $img = [1,3,5,7,9,11,13,15] ?>
                             <?php foreach ($img as $key => $val): ?>
                                 <div class="project-carousel-item">
-                                    <div class="project-carousel-photo" style="background-image: url('<?php echo get_template_directory_uri() . "/assets/img/upload/gallery".$val.".jpg" ?>');"></div>
+                                    <div class="project-carousel-photo" style="background-image: url('<?php echo get_template_directory_uri() . "/assets/image/upload/gallery".$val.".jpg" ?>');"></div>
                                 </div>
                             <?php endforeach ?>
                         </div>
@@ -169,8 +169,8 @@ get_header();
 
             <!-- <div class="more-total"><a href="#">see all projects</a></div> -->
         </div>
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-projects1.png" alt="" class="floater-plant-projects1" />
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-projects2.png" alt="" class="floater-plant-projects2" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-projects1.png" alt="" class="floater-plant-projects1" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-projects2.png" alt="" class="floater-plant-projects2" />
     </div>
 
     <div class="section text-center clients" style="padding-bottom: 0">
@@ -193,12 +193,12 @@ get_header();
                 </div>
             </div>
         </div>
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-client-right.png" alt="" class="floater-plant-client-right rumbai" />
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-client.png" alt="" class="floater-plant-client rumbai" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-client-right.png" alt="" class="floater-plant-client-right rumbai" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-client.png" alt="" class="floater-plant-client rumbai" />
     </div>
 
     <div class="text-center clients w-partner-list" style="padding-top: 0">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-partnerlist.png" alt="" class="floater-plant-partner rumbai" />
+        <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-partnerlist.png" alt="" class="floater-plant-partner rumbai" />
     </div>
 
     <div class="section section-last text-center editorials">
@@ -211,7 +211,7 @@ get_header();
                 <div class="col-md-4">
                     <div class="article-item">
                         <div class="article-item-photo zooming wow fadeInDown" data-wow-delay=".6s" data-wow-offset="450">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/nnews1.jpg" alt="" class="img-fluid" />
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/nnews1.jpg" alt="" class="img-fluid" />
                         </div>
                         <!-- <div class="article-item-category"><a href="#">Event</a></div>
                         <div class="article-item-title"><a href="#">Runway fashion show with ALEXA & TIARA Bridal</a></div>
@@ -221,14 +221,14 @@ get_header();
                 <div class="col-md-4">
                     <div class="article-item">
                         <div class="article-item-photo zooming wow fadeInDown" data-wow-delay=".8s" data-wow-offset="450">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/nnews2.jpg" alt="" class="img-fluid" />
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/nnews2.jpg" alt="" class="img-fluid" />
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="article-item">
                         <div class="article-item-photo zooming wow fadeInDown" data-wow-delay="1s" data-wow-offset="450">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/nnews3.jpg" alt="" class="img-fluid" />
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/nnews3.jpg" alt="" class="img-fluid" />
                         </div>
                     </div>
                 </div>
@@ -240,19 +240,19 @@ get_header();
             <div class="section-item">
               <div class="project-photo-carousel a-photo-carousel owl-carousel owl-theme nav-inside nav-square dots-md">
                 <div class="project-photo-item">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/social1.jpg" alt="" />
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social1.jpg" alt="" />
                 </div>
                 <div class="project-photo-item">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/social2.jpg" alt="" />
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social2.jpg" alt="" />
                 </div>
                 <div class="project-photo-item">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/social3.jpg" alt="" />
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social3.jpg" alt="" />
                 </div>
                 <div class="project-photo-item">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/social4.jpg" alt="" />
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social4.jpg" alt="" />
                 </div>
                 <div class="project-photo-item">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/upload/social5.jpg" alt="" />
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social5.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -261,7 +261,7 @@ get_header();
 
     <div class="promo-zoom-footer">
         <div class="inside">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/signofnature.jpg" alt="" class="img-fluid" />
+            <img src="<?php echo get_template_directory_uri() ?>/assets/image/signofnature.jpg" alt="" class="img-fluid" />
         </div>
     </div>
 

@@ -24,8 +24,8 @@ get_header();
   }
 </style>
 <div class="bumn-logo">
-  <img src="<?php echo get_template_directory_uri() ?>/assets/img/pp.png" class="bumn-logo-left">
-  <img src="<?php echo get_template_directory_uri() ?>/assets/img/bumn.png" class="bumn-logo-right">
+  <img src="<?php echo get_template_directory_uri() ?>/assets/image/pp.png" class="bumn-logo-left">
+  <img src="<?php echo get_template_directory_uri() ?>/assets/image/bumn.png" class="bumn-logo-right">
 </div>
 <div class="promo-zoom full-height">
   <div class="pin-scene">
@@ -34,7 +34,7 @@ get_header();
     <div class="house-right"></div>
     <div class="step-opacity"></div>
     <div class="promo-zoom-titles" data-wow-delay=".2s">
-      <img src="<?php echo get_template_directory_uri() ?>/assets/img/greenpark.png">
+      <img src="<?php echo get_template_directory_uri() ?>/assets/image/greenpark.png">
     </div>
   </div>
 </div>
@@ -42,15 +42,15 @@ get_header();
 <div class="promo-about full-height step-visibility step-logo">
   <div class="section about">
     <div class="container">
-      <img src="<?php echo get_template_directory_uri() ?>/assets/img/achieve1.png">
+      <img src="<?php echo get_template_directory_uri() ?>/assets/image/achieve1.png">
       <h2 class="about-title">Pioneer of Green Concept</h2>
       <div class="about-descr text-grey" style="text-align: center;">
         <span style="max-width: 500px; display: inline-block;">Sustainability is the future and the only way of life. Advocating sustainability on huge platform to avoid catastrophic climate change is a new world order. And we are here to implement it.</span>
       </div>
     </div>
   </div>
-  <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-ach.png" alt="" class="floater-plant-ach1" />
-  <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-ach.png" alt="" class="floater-plant-ach2" />
+  <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-ach.png" alt="" class="floater-plant-ach1" />
+  <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-ach.png" alt="" class="floater-plant-ach2" />
 </div>
 
 
@@ -62,7 +62,7 @@ get_header();
       <div class="col-md-4">
         <a href="service.html" class="service-item wow fadeInUp" data-wow-offset="450">
           <div class="services-letter letter-g font-custom">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom1.png">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/image/badroom1.png">
             <div class="mask wow slideInLeft" data-wow-delay=".2s" data-wow-duration="2.5s" data-wow-offset="450"></div>
           </div>
           <div class="service-item-title">1 Bedroom Type</div>
@@ -72,7 +72,7 @@ get_header();
       <div class="col-md-4">
         <a href="service.html" class="service-item wow fadeInUp" data-wow-offset="450">
           <div class="services-letter letter-w font-custom">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom2.png">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/image/badroom2.png">
             <div class="mask wow slideInLeft" data-wow-delay=".4s" data-wow-duration="2.5s" data-wow-offset="450"></div>
           </div>
           <div class="service-item-title">2 Bedroom Type</div>
@@ -82,7 +82,7 @@ get_header();
       <div class="col-md-4">
         <a href="service.html" class="service-item wow fadeInUp" data-wow-offset="450">
           <div class="services-letter letter-g font-custom">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/badroom3.png">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/image/badroom3.png">
             <div class="mask wow slideInLeft" data-wow-delay=".8s" data-wow-duration="2.5s" data-wow-offset="450"></div>
           </div>
           <div class="service-item-title">2 Bedroom Suite Type</div>
@@ -99,7 +99,7 @@ get_header();
     <div class="carousel-container wow fadeIn a-play" data-wow-offset="450" data-wow-duration="0.2s">
       <div class="a-project-carousel owl-carousel owl-theme">
         <div class="project-carousel-item">
-          <div class="project-carousel-photo" style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/img/feature1.jpg);"></div>
+          <div class="project-carousel-photo" style="background-image: url(<?php echo get_template_directory_uri() ?>/assets/image/feature1.jpg);"></div>
           <div class="project-carousel-detail">
             <div class="project-carousel-category">Brnading</div>
             <div class="project-carousel-title wow fadeInDown">Exclusive<br />Swimming Pool</div>
@@ -111,8 +111,8 @@ get_header();
 
     <!-- <div class="more-total"><a href="work-grid.html">see all projects</a></div> -->
   </div>
-  <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-projects1.png" alt="" class="floater-plant-projects1" />
-  <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-projects2.png" alt="" class="floater-plant-projects2" />
+  <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-projects1.png" alt="" class="floater-plant-projects1" />
+  <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-projects2.png" alt="" class="floater-plant-projects2" />
 </div>
 
 
@@ -136,8 +136,8 @@ get_header();
         </div>
       </div>
   </div>
-  <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-client-right.png" alt="" class="floater-plant-client-right" />
-  <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-client.png" alt="" class="floater-plant-client" />
+  <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-client-right.png" alt="" class="floater-plant-client-right" />
+  <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-client.png" alt="" class="floater-plant-client" />
 </div>
 
 <div class="section text-center clients w-partner-list" style="padding-top: 0">
@@ -145,37 +145,37 @@ get_header();
       <div class="partner-list row align-items-center" style="margin-top:0; padding-top: 9.25925926vmin;">
         <div class="col partner-item wow fadeIn" data-wow-delay=".1s" data-wow-offset="100">
           <a href="#">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/partner1.png" alt=""/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/image/partner1.png" alt=""/>
             <p class="editorials-descr text-grey partner-space">Triple Play Services</p>
           </a>
         </div>
         <div class="col partner-item wow fadeIn" data-wow-delay=".2s" data-wow-offset="100">
           <a href="#">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/partner2.png" alt=""/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/image/partner2.png" alt=""/>
             <p class="editorials-descr text-grey partner-space">Co-Working Spaces</p>
           </a>
         </div>
         <div class="col partner-item wow fadeIn" data-wow-delay=".3s" data-wow-offset="100">
           <a href="#">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/partner3.png" alt=""/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/image/partner3.png" alt=""/>
             <p class="editorials-descr text-grey partner-space">E-Library</p>
           </a>
         </div>
         <div class="col partner-item wow fadeIn" data-wow-delay=".4s" data-wow-offset="100">
           <a href="#">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/partner4.png" alt=""/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/image/partner4.png" alt=""/>
             <p class="editorials-descr text-grey partner-space">Kumkang Building</p>
           </a>
         </div>
         <div class="col partner-item wow fadeIn" data-wow-delay=".5s" data-wow-offset="100">
           <a href="#">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/partner5.png" alt=""/>
+            <img src="<?php echo get_template_directory_uri() ?>/assets/image/partner5.png" alt=""/>
             <p class="editorials-descr text-grey partner-space">Indirect System</p>
           </a>
         </div>
       </div>
   </div>
-  <img src="<?php echo get_template_directory_uri() ?>/assets/img/plant-partnerlist.png" alt="" class="floater-plant-partner" />
+  <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-partnerlist.png" alt="" class="floater-plant-partner" />
 </div>
 
 <div class="section section-last text-center editorials">
@@ -216,7 +216,7 @@ get_header();
 
 <div class="promo-zoom-footer">
     <div class="inside">
-      <img src="<?php echo get_template_directory_uri() ?>/assets/img/signofnature.jpg" alt="" class="img-fluid" />
+      <img src="<?php echo get_template_directory_uri() ?>/assets/image/signofnature.jpg" alt="" class="img-fluid" />
     </div>
 </div>
 
