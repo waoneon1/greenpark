@@ -14,13 +14,14 @@
 	<footer id="footer" class="footer">
 	  <div class="footer-content">
 	    <div class="container">
-	      <div class="row">
-	        <div class="col-md-4 mt-1 mb-5" style="background-color: rgba(255, 255, 255, 0.58);">
-	          <h3 class="section-item-title section-item-title--footer">Marketing Office lama</h3>
+	      <div class="row align-items-center">
+	        <div class="col-md-4 mt-1" style="background-color: rgba(255, 255, 255, 0.58);">
+	          <h3 class="section-item-title section-item-title--footer">Project Site</h3>
 	          <div class="contact-item" id="contact">
-	          	Perum. Puri Krakatau Hijau G1 no. 1A <br />
-				Kel. Kotasari, Kec. Grogol - <br />
-				Cilegon Barat - 42436
+	          	Greenpark Gallery<br />
+				Ruko A1-1 Mega Blok Simpang Tiga Cilegon, <br />
+				Ramanuju, Kec. Purwakarta, <br />
+				Kota Cilegon, Banten - 42431
 	          	<!-- Jl. Perumahan Puri Krakatau Hijau<br />
 	          	Blok G1 No. 1A, Jalan Raya Merak - Grogol<br />
 	          	Cilegon Barat -->
@@ -38,8 +39,10 @@
 
 
 	          <h3 class="section-item-title section-item-title--footer">Hotline</h3>
-	          <div class="contact-item"><a href="tel:+00853462188" class="phone-link">081 1160 7567</a></div>
-	          <div class="contact-item"><a href="tel:+00853462188" class="phone-link">0254-7734567</a></div>
+	          <div class="contact-item mb-3 pb-3">
+	          	<a href="tel:+00853462188" class="phone-link">081 1160 7567</a><br/>
+	          	<a href="tel:+00853462188" class="phone-link">0254-7734567</a>
+	          </div>
 
 	        </div>
 	        <div class="col-md-4 mb-5">

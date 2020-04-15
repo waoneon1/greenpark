@@ -9,21 +9,6 @@
 
 get_header();
 ?>
-    <style type="text/css">
-        .bumn-logo-left {
-          /*  position: absolute;
-            left: 10px;
-            top: 10px;
-            z-index: 99999999;*/
-        }
-        
-        .bumn-logo-right {
-           /* position: absolute;
-            right: 10px;
-            top: 25px;
-            z-index: 99999999;*/
-        }
-    </style>
     <header class="bumn-logo">
         <nav>
             <ul>
@@ -267,7 +252,7 @@ get_header();
 
     <div class="promo-zoom-footer">
         <div class="inside">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4524.612806280899!2d106.0274633278769!3d-5.983417921573833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc6b63cbb0fd7065!2sGreenpark%20Terrace%20Apartment!5e0!3m2!1sid!2sid!4v1575399377341!5m2!1sid!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.8744683752643!2d106.04150851476807!3d-6.011969295645735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418fcb1152d66b%3A0xba648a9157ef0a78!2sGreenpark%20Gallery!5e0!3m2!1sen!2sid!4v1586829016618!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
     </div>
 

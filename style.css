@@ -273,6 +273,13 @@ a .service-item-title {
     padding-left: 0!important; 
     padding-right: 0!important;
 }
+a.phone-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: default;
+}
 @media (max-width: 1199px) {
 
 }
@@ -300,6 +307,32 @@ a .service-item-title {
     img.floater-plant-client, 
     img.floater-plant-client-right {
         display: none;
+    }
+    .line-ontitle:before,
+    .line-ontitle:after {
+      display: none;
+    }
+    .promo-zoom-titles {
+      position: fixed;
+      top: 30%;
+      left: unset;
+      right: unset;
+      padding: 25px;
+      z-index: 40;
+      text-align: center;
+    }
+    .bumn-logo nav ul li {
+      display: none;
+    }
+    .bumn-logo nav ul li:first-child,
+    .bumn-logo nav ul li:last-child {
+      display: block;
+    }
+    .bumn-logo nav ul {
+      align-items: unset;
+    }
+    footer .footer-content {
+      padding-top: 0;
     }
 }
 @media (max-width: 575px) {
