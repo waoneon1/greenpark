@@ -280,6 +280,13 @@ a.phone-link {
     font-weight: 700;
     cursor: default;
 }
+
+/*.social-rounded a:hover {
+    background: #7cb641;
+    border-color: #7fb741;
+    color: #ffffff;
+}*/
+
 @media (max-width: 1199px) {
 
 }

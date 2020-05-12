@@ -84,6 +84,22 @@ endif;
 add_action( 'after_setup_theme', 'terrace_setup' );
 
 /**
+ * 
+ * Image Processing
+ *
+ */
+if ( ! function_exists( 'greenpark_add_image_size' ) ) :
+	
+	function greenpark_add_image_size() {
+		add_image_size( 'gr_news_update', 290, 180, true );
+		add_image_size( 'gr_marketing', 400, 400, true );
+	}
+
+endif;
+add_action( 'after_setup_theme', 'greenpark_add_image_size' );
+
+
+/**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
  * Priority 0 to make it available to lower priority callbacks.
@@ -153,6 +169,15 @@ function terrace_scripts() {
 	wp_enqueue_script( 'terrace-jquery-countdown', get_template_directory_uri() . '/src/js/jquery.countdown.min.js', array(), '1.0', true );
 	wp_enqueue_script( 'terrace-script', get_template_directory_uri() . '/src/js/script.js', array(), '1.0', true );
 
+	$marketing = get_field('executive_marketing'); ?>
+	<script type="text/javascript">
+		var mrkt = [];
+		<?php foreach ($marketing['items'] as $key => $items): ?>
+			mrkt[<?php echo $key ?>] = "<?php echo $items['url'] ?>";
+		<?php endforeach ?>
+	</script>
+	<?php
+
 }
 add_action( 'wp_enqueue_scripts', 'terrace_scripts' );
 
@@ -182,4 +207,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-

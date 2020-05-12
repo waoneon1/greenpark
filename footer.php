@@ -27,21 +27,30 @@
 	          	Cilegon Barat -->
 	          </div>
 	          <div class="contact-item">
-	          	<a href="mailto:greenparkterrace@gmail.com">greenparkterrace@gmail.com</a>
+	          	<!-- <a href="mailto:greenparkterrace@gmail.com">greenparkterrace@gmail.com</a> -->
 	          	<a href="mailto:greenparkterrace.apartemen@gmail.com">greenparkterrace.apartemen@gmail.com</a>
 	          </div>
 
 	          <h3 class="section-item-title section-item-title--footer">Social Media</h3>
 	          <div class="contact-item">
-	          	Account FB : greenparkterrace199@gmail.com
-	          	@greenparkterrace
+	          	<ul class="social social-rounded mt-3">
+                  <li><a href="https://www.facebook.com/GreenPark-Terrace-Apartment-1180276792085903/">
+                  	<i class="socicon-facebook"></i>
+                  </a></li>
+                  <li><a href="https://www.instagram.com/greenparkterrace/">
+                  	<i class="socicon-instagram"></i>
+                  </a></li>
+                  <li><a href="mailto:greenparkterrace@gmail.com">
+                  	<i class="socicon-mail"></i>
+                  </a></li>
+                </ul>
 	          </div>
 
 
 	          <h3 class="section-item-title section-item-title--footer">Hotline</h3>
 	          <div class="contact-item mb-3 pb-3">
-	          	<a href="tel:+00853462188" class="phone-link">081 1160 7567</a><br/>
-	          	<a href="tel:+00853462188" class="phone-link">0254-7734567</a>
+	          	<a href="tel:08111607567" class="phone-link">081 1160 7567</a><br/>
+	          	<a href="tel:02547734567" class="phone-link">0254-7734567</a>
 	          </div>
 
 	        </div>
@@ -59,7 +68,7 @@
 	  </div>
 	  <div class="site-info" style="background-color: #32281E; color: #fff;">
 	    <div class="container">
-	      <div class="copyright"><strong>greenpark terrace apartment &copy; 2019</strong>. all rights reserved</div>
+	      <div class="copyright"><strong>greenpark terrace apartment &copy; <?php echo date("Y");?></strong>. all rights reserved</div>
 	    </div>
 	  </div>
 	</footer>
@@ -69,7 +78,16 @@
 <?php wp_footer(); ?>
 
 <script>
-  $(document).ready(function() {
+  $(document).ready(function($) {
+
+    // marketing executive
+    var hash = window.location.hash.substr(1);
+    if (mrkt.includes(hash)) {
+    	$('#mrkt-' + hash).show();
+    } else {
+    	$('#mrkt-' + mrkt[0]).show();
+    }
+    
     // init controller
     var controller = new ScrollMagic.Controller();
 

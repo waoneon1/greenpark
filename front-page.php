@@ -186,45 +186,39 @@ get_header();
         <img src="<?php echo get_template_directory_uri() ?>/assets/image/plant-partnerlist.png" alt="" class="floater-plant-partner rumbai" />
     </div>
 
+    <?php $news_update = get_field('news_update') ?>
+    <?php $marketing = get_field('executive_marketing') ?>
     <div class="section section-last text-center editorials">
         <div id="news" class="container">
             
-            <h3 class="section-item-title">NEWS UPDATE</h3>
+            <h3 class="section-item-title"><?php echo $news_update['title'] ?></h3>
             <!-- <div class="editorials-descr text-grey">Check out our upcoming events, exhibitions and other activities</div> -->
-
             <div class="article-list row wow fadeInUp" data-wow-duration=".5s" data-wow-offset="450">
-                <div class="col-md-4">
+                <?php foreach ($news_update['items'] as $key => $items): ?>
+                     <div class="col-md-4">
                     <div class="article-item">
                         <div class="article-item-photo zooming wow fadeInDown" data-wow-delay=".6s" data-wow-offset="450">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/nnews1.jpg" alt="" class="img-fluid" />
+                            <img src="<?php echo $items['image']['sizes']['gr_news_update'] ?>" alt="" class="img-fluid" />
                         </div>
                         <!-- <div class="article-item-category"><a href="#">Event</a></div>
                         <div class="article-item-title"><a href="#">Runway fashion show with ALEXA & TIARA Bridal</a></div>
                         <div class="article-item-date text-grey">December 25, 2018</div> -->
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="article-item">
-                        <div class="article-item-photo zooming wow fadeInDown" data-wow-delay=".8s" data-wow-offset="450">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/nnews2.jpg" alt="" class="img-fluid" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="article-item">
-                        <div class="article-item-photo zooming wow fadeInDown" data-wow-delay="1s" data-wow-offset="450">
-                            <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/nnews3.jpg" alt="" class="img-fluid" />
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach ?>
             </div>
         </div>
 
-        <div class="container">
-            <h3 class="section-item-title line-ontitle">SOCIAL UPDATES</h3>
-            <div class="section-item">
-              <div class="project-photo-carousel a-photo-carousel owl-carousel owl-theme nav-inside nav-square dots-md">
-                <div class="project-photo-item">
+        <div class="container mb-5">
+            <h3 class="section-item-title line-ontitle"><?php echo $marketing['title'] ?></h3>
+            <div class="section-item text-center">
+                <?php foreach ($marketing['items'] as $key => $items): ?>
+                    <img id="mrkt-<?php echo $items['url'] ?>" 
+                    src="<?php echo $items['image']['sizes']['gr_marketing'] ?>" 
+                    alt="" style="display: none;" />
+                <?php endforeach ?>
+              <!-- <div class="project-photo-carousel a-photo-carousel owl-carousel owl-theme nav-inside nav-square dots-md"> -->
+               <!--  <div class="project-photo-item">
                     <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social1.jpg" alt="" />
                 </div>
                 <div class="project-photo-item">
@@ -238,8 +232,8 @@ get_header();
                 </div>
                 <div class="project-photo-item">
                     <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social5.jpg" alt="" />
-                </div>
-              </div>
+                </div> -->
+              <!-- </div> -->
             </div>
         </div>
     </div>
