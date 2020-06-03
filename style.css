@@ -287,6 +287,10 @@ a.phone-link {
     color: #ffffff;
 }*/
 
+.dots-md.owl-theme .owl-dots, .dots-md.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+}
+
 @media (max-width: 1199px) {
 
 }

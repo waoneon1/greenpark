@@ -193,18 +193,11 @@ get_header();
             
             <h3 class="section-item-title"><?php echo $news_update['title'] ?></h3>
             <!-- <div class="editorials-descr text-grey">Check out our upcoming events, exhibitions and other activities</div> -->
-            <div class="article-list row wow fadeInUp" data-wow-duration=".5s" data-wow-offset="450">
+            <div class="project-photo-carousel a-photo-carousel owl-carousel owl-theme nav-inside nav-square dots-md">
                 <?php foreach ($news_update['items'] as $key => $items): ?>
-                     <div class="col-md-4">
-                    <div class="article-item">
-                        <div class="article-item-photo zooming wow fadeInDown" data-wow-delay=".6s" data-wow-offset="450">
-                            <img src="<?php echo $items['image']['sizes']['gr_news_update'] ?>" alt="" class="img-fluid" />
-                        </div>
-                        <!-- <div class="article-item-category"><a href="#">Event</a></div>
-                        <div class="article-item-title"><a href="#">Runway fashion show with ALEXA & TIARA Bridal</a></div>
-                        <div class="article-item-date text-grey">December 25, 2018</div> -->
+                    <div class="project-photo-item">
+                        <img src="<?php echo $items['image']['sizes']['gr_marketing'] ?>" alt="" />
                     </div>
-                </div>
                 <?php endforeach ?>
             </div>
         </div>
@@ -217,8 +210,8 @@ get_header();
                     src="<?php echo $items['image']['sizes']['gr_marketing'] ?>" 
                     alt="" style="display: none;" />
                 <?php endforeach ?>
-              <!-- <div class="project-photo-carousel a-photo-carousel owl-carousel owl-theme nav-inside nav-square dots-md"> -->
-               <!--  <div class="project-photo-item">
+             <!--  <div class="project-photo-carousel a-photo-carousel owl-carousel owl-theme nav-inside nav-square dots-md">
+                <div class="project-photo-item">
                     <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social1.jpg" alt="" />
                 </div>
                 <div class="project-photo-item">
@@ -232,8 +225,8 @@ get_header();
                 </div>
                 <div class="project-photo-item">
                     <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social5.jpg" alt="" />
-                </div> -->
-              <!-- </div> -->
+                </div>
+              </div> -->
             </div>
         </div>
     </div>
