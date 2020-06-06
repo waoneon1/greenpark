@@ -320,6 +320,8 @@
 			autoplayHoverPause: true,
 			dots: true,
 			nav: true,
+			autoplay: true,
+			loop: true,
 			navText: ['<div class="arrow"><div class="arrow-top"></div><div class="arrow-bottom"></div></div>','<div class="arrow"><div class="arrow-top"></div><div class="arrow-bottom"></div></div>'],
 			dotData: false,
 			responsive:{

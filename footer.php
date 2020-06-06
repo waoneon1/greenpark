@@ -83,8 +83,12 @@
     // marketing executive
     var hash = window.location.hash.substr(1);
     if (mrkt.includes(hash)) {
+    	$('.marketing-multi').hide();
+    	$('.marketing-single').show();
     	$('#mrkt-' + hash).show();
     } else {
+    	$('.marketing-single').hide();
+    	$('.marketing-multi').show();
     	$('#mrkt-' + mrkt[0]).show();
     }
     

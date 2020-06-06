@@ -204,29 +204,21 @@ get_header();
 
         <div class="container mb-5">
             <h3 class="section-item-title line-ontitle"><?php echo $marketing['title'] ?></h3>
-            <div class="section-item text-center">
+            <div class="section-item text-center marketing-single" style="display: none;">
                 <?php foreach ($marketing['items'] as $key => $items): ?>
                     <img id="mrkt-<?php echo $items['url'] ?>" 
                     src="<?php echo $items['image']['sizes']['gr_marketing'] ?>" 
                     alt="" style="display: none;" />
-                <?php endforeach ?>
-             <!--  <div class="project-photo-carousel a-photo-carousel owl-carousel owl-theme nav-inside nav-square dots-md">
-                <div class="project-photo-item">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social1.jpg" alt="" />
+                <?php endforeach ?>  
+            </div>
+            <div class="section-item text-center marketing-multi" style="display: none;">
+                <div class="project-photo-carousel a-photo-carousel owl-carousel owl-theme nav-inside nav-square dots-md">
+                    <?php foreach ($marketing['items'] as $key => $items): ?>
+                        <div class="project-photo-item">
+                            <img src="<?php echo $items['image']['sizes']['gr_marketing'] ?>" alt="" />
+                        </div>
+                    <?php endforeach ?>
                 </div>
-                <div class="project-photo-item">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social2.jpg" alt="" />
-                </div>
-                <div class="project-photo-item">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social3.jpg" alt="" />
-                </div>
-                <div class="project-photo-item">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social4.jpg" alt="" />
-                </div>
-                <div class="project-photo-item">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/image/upload/social5.jpg" alt="" />
-                </div>
-              </div> -->
             </div>
         </div>
     </div>
